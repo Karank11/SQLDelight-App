@@ -1,4 +1,4 @@
-package com.example.sqldelightapp.ui
+package com.example.sqldelightapp.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.example.sqldelightapp.data.PersonDataSource
