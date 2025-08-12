@@ -25,8 +25,9 @@ The app follows the Model-View-ViewModel (MVVM) architectural pattern. This sepa
 * **Model (Repository/DataSource)**: Manages the data sources, fetching data from the local SQLDelight database.
 
   Here is a diagram illustrating the structure:
-![img.png](img.png)
-
+  <p align="center">
+    <img width="600" height="1200" alt="image" src="https://github.com/user-attachments/assets/6b5bfbfc-67a9-437e-9725-ad720dd51d2d" />
+  </p>
 
 ## 📂 Key Project Structure
 ```
