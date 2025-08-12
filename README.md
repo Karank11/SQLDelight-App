@@ -4,17 +4,13 @@ An Android app for managing a simple list of people, built with Kotlin and SQLDe
 
 ---
 
-## ✨ Features
-
+## Features
 * View a list of persons in a `RecyclerView`.
 * Add new persons with a first and last name.
 * Delete persons via a delete button in each list item.
 * Offline storage using **SQLDelight**.
 
----
-
-## 🛠 Tech Stack
-
+## Tech Stack
 * **UI**: Android SDK (XML layouts, `RecyclerView`, `ConstraintLayout`)
 * **Language**: Kotlin
 * **Database**: SQLDelight (SQLite wrapper with generated Kotlin APIs)
@@ -22,17 +18,13 @@ An Android app for managing a simple list of people, built with Kotlin and SQLDe
 * **Concurrency**: Coroutines for async database operations
 * **UI Updates**: `DiffUtil` for efficient `RecyclerView` updates
 
----
-
-## 🏛️ Architecture (MVVM)
-
+## Architecture (MVVM)
 The app follows the Model-View-ViewModel (MVVM) architectural pattern. This separates the UI from the business logic, making the code more modular, testable, and maintainable.
-
 * **View (Activity/Fragment)**: Observes the ViewModel for data changes and forwards user actions.
 * **ViewModel**: Holds and processes UI-related data. It survives configuration changes and communicates with the Repository.
 * **Model (Repository/DataSource)**: Manages the data sources, fetching data from the local SQLDelight database.
 
-Here is a diagram illustrating the structure:
+  Here is a diagram illustrating the structure:
 ![img.png](img.png)
 
 
@@ -40,7 +32,7 @@ Here is a diagram illustrating the structure:
 ```
 src/main/java/com/example/sqldelightapp/
 ├── ui/                     → Activities, Adapters, ViewHolders
-└── db/                     → Database/DataSource logic
+└── data/                   → Database/DataSource logic
 
 src/main/sqldelight/        → SQL schema & queries (.sq files)
 
