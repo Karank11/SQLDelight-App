@@ -52,6 +52,8 @@ dependencies {
 
     implementation(libs.androidx.recyclerview)
 
+    implementation libs.androidx.lifecycle.viewmodel.ktx
+
     implementation(libs.android.driver)
     implementation(libs.android.coroutines.extensions)
 

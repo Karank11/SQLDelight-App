@@ -1,5 +1,6 @@
 [versions]
 agp = "8.8.1"
+lifecycleViewmodelKtx = "2.8.4"
 recyclerview = "1.4.0"
 sqldelightVersion = "2.0.1"
 kotlin = "1.9.24"
@@ -16,6 +17,7 @@ constraintlayout = "2.2.1"
 android-coroutines-extensions = { module = "app.cash.sqldelight:coroutines-extensions", version.ref = "sqldelightVersion" }
 android-driver = { module = "app.cash.sqldelight:android-driver", version.ref = "sqldelightVersion" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
 androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
